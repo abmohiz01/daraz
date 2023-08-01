@@ -1,5 +1,6 @@
 import pprint
 
+# import re
 from selenium import webdriver
 from collections import OrderedDict
 # path = 'D:\ScrappingWithSelenium\drivers\chromedriver.exe'
@@ -33,3 +34,5 @@ for product in result_list:
     product_list.append(od)
 
 pprint.pprint(product_list)
+
+
